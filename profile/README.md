@@ -1,17 +1,20 @@
 ![Everest](https://raw.githubusercontent.com/ProjectEverest/.github/main/Everest.png)
 
-Project Everest
-===========
+# Project Everest
 
-Welcome to Project Everest
+## Welcome to Project Everest
 
 Embark on an exhilarating journey with Project Everest, a custom Android ROM designed to redefine your device's capabilities. Named after the world's tallest peak, Project Everest aims to elevate your Android experience to new heights with its innovative features and optimizations.
 
-### Beginner Guide ###
-```bash
-repo init -u https://github.com/ProjectEverest/android_manifest -b udc
+### Initialize local repository
+```
+repo init -u https://github.com/ProjectEverest/android_manifest -b qpr2 --git-lfs
+```
+### Sync up 
+```
 repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 ```
+
 ### Important Repositories ###
 - [Manifest](https://github.com/ProjectEverest/android_manifest) 
 - [Vendor](https://github.com/ProjectEverest/android_vendor_everest)
@@ -32,8 +35,10 @@ repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune 
 Special thanks to all of them below:
 
 - [AOSP](https://source.android.com/)
+- [Parasite Project](https://source.android.com/TheParasiteProject)
 - [SuperiorExtended](https://github.com/SuperiorExtended/)
 - [SuperiorOS](https://github.com/SuperiorOS)
 - [LineageOS](https://github.com/LineageOS)
 - [Pixel Experience](https://github.com/PixelExperience)
 - [Evolution-x](https://github.com/Evolution-X)
+- [PixysOS](https://github.com/PixysOS)
