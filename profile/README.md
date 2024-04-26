@@ -12,8 +12,11 @@ repo init -u https://github.com/ProjectEverest/android_manifest -b qpr2 --git-lf
 ```
 ### Sync up 
 ```
-repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
+repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all) && repo forall -c git lfs pull
 ```
+
+### EverestOS Devices
+- [EverestOS-Devices](https://github.com/projecteverest-devices)
 
 ### Important Repositories ###
 - [Manifest](https://github.com/ProjectEverest/android_manifest) 
@@ -25,7 +28,7 @@ repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune 
 - [Changelog](https://github.com/ProjectEverest/EverestOS_Changelogs/blob/main/README.md)
 
 ### Maintainership ###
-[Apply for Maintainership](https://forms.gle/BD6HJBmDu7fevZit5)
+- [Apply for Maintainership](https://forms.gle/BD6HJBmDu7fevZit5)
 
 ### Download ###
 [![Download](https://img.shields.io/sourceforge/dt/projecteverest.svg)](https://sourceforge.net/projects/everestos-releases/)
@@ -35,10 +38,11 @@ repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune 
 Special thanks to all of them below:
 
 - [AOSP](https://source.android.com/)
-- [Parasite Project](https://source.android.com/TheParasiteProject)
+- [Parasite Project](https://github.com/TheParasiteProject)
+- [YAAP](https://github.com/yaap)
+- [crDroid](https://github.com/crdroidandroid)
+- [PixysOS](https://github.com/PixysOS)
 - [SuperiorExtended](https://github.com/SuperiorExtended/)
 - [SuperiorOS](https://github.com/SuperiorOS)
 - [LineageOS](https://github.com/LineageOS)
 - [Pixel Experience](https://github.com/PixelExperience)
-- [Evolution-x](https://github.com/Evolution-X)
-- [PixysOS](https://github.com/PixysOS)
