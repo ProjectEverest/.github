@@ -8,7 +8,7 @@ Embark on an exhilarating journey with Project Everest, a custom Android ROM des
 
 ### Initialize local repository
 ```
-repo init -u https://github.com/ProjectEverest/android_manifest -b qpr2 --git-lfs
+repo init -u https://github.com/ProjectEverest/android_manifest -b qpr3 --git-lfs
 ```
 ### Sync up 
 ```
@@ -42,7 +42,6 @@ Special thanks to all of them below:
 - [YAAP](https://github.com/yaap)
 - [crDroid](https://github.com/crdroidandroid)
 - [PixysOS](https://github.com/PixysOS)
-- [SuperiorExtended](https://github.com/SuperiorExtended/)
 - [SuperiorOS](https://github.com/SuperiorOS)
 - [LineageOS](https://github.com/LineageOS)
 - [Pixel Experience](https://github.com/PixelExperience)
