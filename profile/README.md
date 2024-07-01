@@ -1,4 +1,4 @@
-![Everest](https://raw.githubusercontent.com/ProjectEverest/.github/main/Everest.png)
+![Everest](https://raw.githubusercontent.com/ProjectEverest/.github/main/profile/Everest.svg)
 
 # Project Everest
 
