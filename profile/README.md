@@ -8,7 +8,7 @@ Embark on an exhilarating journey with Project Everest, a custom Android ROM des
 
 ### Initialize local repository
 ```
-repo init -u https://github.com/ProjectEverest/android_manifest -b qpr3 --git-lfs
+repo init -u https://github.com/ProjectEverest/manifest -b qpr3 --git-lfs
 ```
 ### Sync up 
 ```
@@ -19,7 +19,7 @@ repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune 
 - [EverestOS-Devices](https://github.com/projecteverest-devices)
 
 ### Important Repositories ###
-- [Manifest](https://github.com/ProjectEverest/android_manifest) 
+- [Manifest](https://github.com/ProjectEverest/manifest) 
 - [Vendor](https://github.com/ProjectEverest/android_vendor_everest)
 
 ### Important Links ###
