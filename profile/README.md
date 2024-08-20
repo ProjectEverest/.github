@@ -8,7 +8,7 @@ Embark on an exhilarating journey with Project Everest, a custom Android ROM des
 
 ### Initialize local repository
 ```
-repo init -u https://github.com/ProjectEverest/manifest -b qpr3 --git-lfs
+repo init -u https://github.com/ProjectEverest/manifest -b 14 --git-lfs
 ```
 ### Sync up 
 ```
