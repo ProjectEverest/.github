@@ -12,7 +12,7 @@ repo init -u https://github.com/ProjectEverest/manifest -b 14 --git-lfs
 ```
 ### Sync up 
 ```
-repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all) && repo forall -c git lfs pull
+repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 ```
 
 ### EverestOS Devices
