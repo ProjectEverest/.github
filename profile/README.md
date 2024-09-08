@@ -46,3 +46,4 @@ Special thanks to all of them below:
 - [LineageOS](https://github.com/LineageOS)
 - [Pixel Experience](https://github.com/PixelExperience)
 - [RisingTechOSS](https://github.com/RisingTechOSS)
+- [Evolution X](https://github.com/Evolution-X)
