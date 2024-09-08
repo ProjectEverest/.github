@@ -45,3 +45,4 @@ Special thanks to all of them below:
 - [SuperiorOS](https://github.com/SuperiorOS)
 - [LineageOS](https://github.com/LineageOS)
 - [Pixel Experience](https://github.com/PixelExperience)
+- [RisingTechOSS](https://github.com/RisingTechOSS)
